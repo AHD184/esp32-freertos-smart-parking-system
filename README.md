@@ -22,10 +22,14 @@ This system can be scaled up and implemented in parking lots to reduce operation
 system for parking authorities in case an accident or mishap occurs in the lot.
 
 ## Video
-<img width="757" height="515" alt="Demo Preview" src="assets/demo-preview.gif" />
+<p align="center">
+  <img width="757" height="515" alt="Demo Preview" src="assets/demo.gif" />
+</p>
 
 ## System Diagram
-<img width="757" height="515" alt="Project Wokwi Diagram" src="assets/0.png" />
+<p align="center">
+  <img width="757" height="515" alt="Project Wokwi Diagram" src="assets/0.png" />
+</p>
 
 ## How it works
 The task interaction diagram is shown below.
@@ -177,32 +181,101 @@ During normal exit, the scanned tag is routed to `exitRFIDQueue`. The exit acces
 During an anomaly, `AnomalyDetectionTask` detects abnormal ultrasonic readings and gives `accidentDetectedBinSem` and `flashLEDBinSem`. The emergency response task then sets emergency mode, blocks normal access, displays an emergency message on the LCD, and keeps the system in alert mode until the anomaly is cleared or handled.
 
 ## Screenshots
-1. Initial Parking System State: when nothing happened.
-<img width="429" height="293" alt="Image" src="assets/1.png" />
-<img width="357" height="257" alt="image" src="assets/1.1.png" />
 
-2. One car allowed, thus using one parking lot.
-<img width="548" height="312" alt="image" src="assets/2.png" />
-<img width="357" height="235" alt="image" src="assets/2.1.png" />
+1. Initial Parking System State: when nothing has happened yet.
 
-3. Another car allowed, thus using both parking lot.
-<img width="357" height="235" alt="image" src="assets/3.png" />
-<img width="357" height="235" alt="image" src="assets/3.1.png" />
+<table>
+  <tr>
+    <td align="center">
+      <img width="420" alt="Initial parking system state" src="assets/1.png" />
+    </td>
+    <td align="center">
+      <img width="420" alt="Initial LCD/status output" src="assets/1.1.png" />
+    </td>
+  </tr>
+</table>
+
+2. One car allowed, thus using one parking slot.
+
+<table>
+  <tr>
+    <td align="center">
+      <img width="420" alt="One car access granted" src="assets/2.png" />
+    </td>
+    <td align="center">
+      <img width="420" alt="One parking slot occupied" src="assets/2.1.png" />
+    </td>
+  </tr>
+</table>
+
+3. Another car allowed, thus using both parking slots.
+
+<table>
+  <tr>
+    <td align="center">
+      <img width="420" alt="Second car access granted" src="assets/3.png" />
+    </td>
+    <td align="center">
+      <img width="420" alt="Parking lot full" src="assets/3.1.png" />
+    </td>
+  </tr>
+</table>
 
 4. Anomaly detected state.
-<img width="357" height="235" alt="image" src="assets/4.png" />
+
+<table>
+  <tr>
+    <td align="center">
+      <img width="420" alt="Anomaly detected state" src="assets/4.png" />
+    </td>
+  </tr>
+</table>
 
 5. Police entry and exit during emergency mode.
-<img width="540" height="292" alt="image" src="assets/5.png" />
-<img width="540" height="292" alt="image" src="assets/5.1.png" />
 
-6. Car trying to leave/enter during the emergency mode.
-<img width="540" height="292" alt="image" src="assets/6.png" />
-<img width="1054" height="598" alt="image" src="assets/6.1.png" />
+<table>
+  <tr>
+    <td align="center">
+      <img width="420" alt="Police entry during emergency mode" src="assets/5.png" />
+    </td>
+    <td align="center">
+      <img width="420" alt="Police exit during emergency mode" src="assets/5.1.png" />
+    </td>
+  </tr>
+</table>
+
+6. Car trying to leave/enter during emergency mode.
+
+<table>
+  <tr>
+    <td align="center">
+      <img width="420" alt="Vehicle blocked during emergency mode" src="assets/6.png" />
+    </td>
+    <td align="center">
+      <img width="420" alt="Emergency mode access restriction" src="assets/6.1.png" />
+    </td>
+  </tr>
+</table>
 
 7. Normal mode after emergency mode.
-<img width="413" height="242" alt="image" src="assets/7.png" />
 
-8. Cars Exiting states.
-<img width="539" height="294" alt="image" src="assets/8.png" />
-<img width="539" height="294" alt="image" src="assets/8.1.png" />
+<table>
+  <tr>
+    <td align="center">
+      <img width="420" alt="Normal mode after emergency mode" src="assets/7.png" />
+    </td>
+  </tr>
+</table>
+
+8. Car exiting states.
+
+<table>
+  <tr>
+    <td align="center">
+      <img width="420" alt="Car exiting state" src="assets/8.png" />
+    </td>
+    <td align="center">
+      <img width="420" alt="Updated parking state after exit" src="assets/8.1.png" />
+    </td>
+  </tr>
+</table>
