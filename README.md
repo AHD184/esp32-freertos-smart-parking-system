@@ -1,12 +1,10 @@
 # Automated Parking System
 
 ## Group information
-### Section number: 01
-### Group number: 10
 ### Team members
-- Adrish Danka - b00099914
-- Arjunraj Sasikumar - b00100218
-- Fadil Imran Pasha - b00101050
+- Adrish Danka 
+- Arjunraj Sasikumar 
+- Fadil Imran Pasha
 
 ## Project Description
 Our project in an automated parking system with slot anomaly detection. It manages parking access, slot availability, 
@@ -23,6 +21,8 @@ the emergency, normal operations are resumed.
 This system can be scaled up and implemented in parking lots to reduce operation costs, increase user convienience, and serve as an alert
 system for parking authorities in case an accident or mishap occurs in the lot.
 
+## Video
+https://github.com/user-attachments/assets/e85114d7-cd2f-41f3-8cbd-9ddf51b33fed
 
 ## System Diagram
 <img width="757" height="515" alt="Project Wokwi Diagram" src="https://github.com/user-attachments/assets/52e1fb77-db1b-4e41-a3a5-861a5ba00f1c" />
@@ -206,8 +206,3 @@ During an anomaly, `AnomalyDetectionTask` detects abnormal ultrasonic readings a
 8. Cars Exiting states.
 <img width="539" height="294" alt="image" src="https://github.com/user-attachments/assets/d78d267d-62fd-4be7-9f09-d8aefa3f5c77" />
 <img width="539" height="294" alt="image" src="https://github.com/user-attachments/assets/5bbb7148-50be-4e08-8afb-03f43250a5f6" />
-
-
-
-## Video
-https://github.com/user-attachments/assets/e85114d7-cd2f-41f3-8cbd-9ddf51b33fed
