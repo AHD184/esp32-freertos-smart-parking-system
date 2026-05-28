@@ -22,10 +22,10 @@ This system can be scaled up and implemented in parking lots to reduce operation
 system for parking authorities in case an accident or mishap occurs in the lot.
 
 ## Video
-https://github.com/user-attachments/assets/e85114d7-cd2f-41f3-8cbd-9ddf51b33fed
+<img width="757" height="515" alt="Demo Preview" src="assets/demo-preview.gif" />
 
 ## System Diagram
-<img width="757" height="515" alt="Project Wokwi Diagram" src="https://github.com/user-attachments/assets/52e1fb77-db1b-4e41-a3a5-861a5ba00f1c" />
+<img width="757" height="515" alt="Project Wokwi Diagram" src="assets/0.png" />
 
 ## How it works
 The task interaction diagram is shown below.
@@ -178,31 +178,31 @@ During an anomaly, `AnomalyDetectionTask` detects abnormal ultrasonic readings a
 
 ## Screenshots
 1. Initial Parking System State: when nothing happened.
-<img width="429" height="293" alt="Image" src="https://github.com/user-attachments/assets/34b0c32f-4725-4737-b83c-68b494b8367a" />
-<img width="357" height="257" alt="image" src="https://github.com/user-attachments/assets/fe5f84cd-5b5c-4f00-9487-e0c14f610cab" />
+<img width="429" height="293" alt="Image" src="assets/1.png" />
+<img width="357" height="257" alt="image" src="assets/1.1.png" />
 
 2. One car allowed, thus using one parking lot.
-<img width="548" height="312" alt="image" src="https://github.com/user-attachments/assets/aa9afa20-d7c8-4c59-8040-32875c2781f9" />
-<img width="357" height="235" alt="image" src="https://github.com/user-attachments/assets/f67619c0-6a0b-47f7-85fa-a953a4453ee0" />
+<img width="548" height="312" alt="image" src="assets/2.png" />
+<img width="357" height="235" alt="image" src="assets/2.1.png" />
 
 3. Another car allowed, thus using both parking lot.
-<img width="357" height="235" alt="image" src="https://github.com/user-attachments/assets/bfe62881-06cf-4831-b77c-5b97a89297dc" />
-<img width="357" height="235" alt="image" src="https://github.com/user-attachments/assets/ba23b384-dc17-4f97-ad26-5a5904959c16" />
+<img width="357" height="235" alt="image" src="assets/3.png" />
+<img width="357" height="235" alt="image" src="assets/3.1.png" />
 
 4. Anomaly detected state.
-<img width="357" height="235" alt="image" src="https://github.com/user-attachments/assets/980d7639-e9b9-4030-8388-d24ee63f68fa" />
+<img width="357" height="235" alt="image" src="assets/4.png" />
 
 5. Police entry and exit during emergency mode.
-<img width="540" height="292" alt="image" src="https://github.com/user-attachments/assets/a8dccab4-1e9b-4e2e-9190-35a6c2520db3" />
-<img width="540" height="292" alt="image" src="https://github.com/user-attachments/assets/c9e7abe1-c3d9-475e-8e1b-1782d74e0ad1" />
+<img width="540" height="292" alt="image" src="assets/5.png" />
+<img width="540" height="292" alt="image" src="assets/5.1.png" />
 
 6. Car trying to leave/enter during the emergency mode.
-<img width="540" height="292" alt="image" src="https://github.com/user-attachments/assets/8e577f49-b288-4064-b591-6617803d815e" />
-<img width="1054" height="598" alt="image" src="https://github.com/user-attachments/assets/02dbb70c-ba95-4b04-a7db-e9de6202a6be" />
+<img width="540" height="292" alt="image" src="assets/6.png" />
+<img width="1054" height="598" alt="image" src="assets/6.1.png" />
 
 7. Normal mode after emergency mode.
-<img width="413" height="242" alt="image" src="https://github.com/user-attachments/assets/3159e59c-2fb1-447a-ab75-16e3ce64bc47" />
+<img width="413" height="242" alt="image" src="assets/7.png" />
 
 8. Cars Exiting states.
-<img width="539" height="294" alt="image" src="https://github.com/user-attachments/assets/d78d267d-62fd-4be7-9f09-d8aefa3f5c77" />
-<img width="539" height="294" alt="image" src="https://github.com/user-attachments/assets/5bbb7148-50be-4e08-8afb-03f43250a5f6" />
+<img width="539" height="294" alt="image" src="assets/8.png" />
+<img width="539" height="294" alt="image" src="assets/8.1.png" />
